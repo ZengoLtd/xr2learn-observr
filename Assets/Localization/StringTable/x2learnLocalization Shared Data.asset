@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: x2learnLocalization Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: x2learnLocalization
+  m_TableCollectionNameGuidString: f91f38eabf32090449b94bc21f408d33
+  m_Entries:
+  - m_Id: 107009409024
+    m_Key: setupNewDevice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881075937280
+    m_Key: connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236573876224
+    m_Key: estalishWirelessConnection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18407428849664
+    m_Key: finishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18532129701888
+    m_Key: connectDeviceDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18903954751488
+    m_Key: succesfullConnectedDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20107975852032
+    m_Key: wirelessConnectedDesc1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20275915784192
+    m_Key: wirelessConnectedDesc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20485895225344
+    m_Key: giveDeviceName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21092194451456
+    m_Key: optional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21403021737984
+    m_Key: noDeviceAdded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21656877793280
+    m_Key: buttonCancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21722908721152
+    m_Key: buttonDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21771109662720
+    m_Key: buttonCreate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21851661271040
+    m_Key: buttonCreateReport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22143173787648
+    m_Key: buttonEndReport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22244260708352
+    m_Key: buttonMakeScreenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22616412913664
+    m_Key: buttonSaveAndFinish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23147680235520
+    m_Key: buttonDeviceList
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23212754862080
+    m_Key: buttonReportLibary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23582637948928
+    m_Key: hintShorcuts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47560106573824
+    m_Key: hintSelect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47612908666880
+    m_Key: hintScreenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47810183561216
+    m_Key: buttonAddNew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48041050636288
+    m_Key: connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48292146839552
+    m_Key: disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48763301396480
+    m_Key: buttonRename
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49615244230656
+    m_Key: buttonDelete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52344482037760
+    m_Key: deviceDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52430280720384
+    m_Key: screenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52578054438912
+    m_Key: minAgo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53019286831104
+    m_Key: noteScreenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53848962105344
+    m_Key: noSavedScreenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53944323801088
+    m_Key: crpCreateReportPanelTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54078700912640
+    m_Key: userName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55488385515520
+    m_Key: deviceName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56176205234176
+    m_Key: deviceModel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56319121948672
+    m_Key: selectReport
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3220157688780947480
+  references:
+    version: 2
+    RefIds:
+    - rid: 3220157688780947480
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1721202699086

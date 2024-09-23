@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/TestUI/PupupUSS.uss?fileID=7433441132597879392&amp;guid=a0a3e44004ccad14496a5eda901d485b&amp;type=3#PupupUSS" />
+    <ui:VisualElement name="BodyElement" style="flex-grow: 1; width: 80px; max-width: 80px; min-width: 80px; height: 80px; max-height: 80px; min-height: 80px; align-items: flex-end; justify-content: flex-start; align-self: flex-end;">
+        <ui:VisualElement name="DisplayContainer" style="flex-grow: 1; width: 80px; height: 30px; background-color: rgb(217, 213, 148); min-height: 30px; max-height: 30px; max-width: 80px; min-width: 80px; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px;">
+            <ui:Label tabindex="-1" text="FPS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FPSLabel" style="align-self: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

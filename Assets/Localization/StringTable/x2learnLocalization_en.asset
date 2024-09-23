@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: x2learnLocalization_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f91f38eabf32090449b94bc21f408d33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 107009409024
+    m_Localized: Setup new device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881075937280
+    m_Localized: Connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236573876224
+    m_Localized: Estalish wireless connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18407428849664
+    m_Localized: Finishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18532129701888
+    m_Localized: Please, connect the headset to this computer with a data cable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18903954751488
+    m_Localized: Successful connected, please wait a while...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20107975852032
+    m_Localized: Wireless connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20275915784192
+    m_Localized: Successful processing, you can now disconnect the cable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20485895225344
+    m_Localized: Give your device an unique name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21092194451456
+    m_Localized: (optional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21403021737984
+    m_Localized: No device added yet, start setting one up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21656877793280
+    m_Localized: CANCEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21722908721152
+    m_Localized: DONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21771109662720
+    m_Localized: CREATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21851661271040
+    m_Localized: CREATE REPORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22143173787648
+    m_Localized: END REPORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22244260708352
+    m_Localized: MAKE SCREENSHOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22616412913664
+    m_Localized: SAVE AND FINISH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23147680235520
+    m_Localized: Device list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23212754862080
+    m_Localized: Report libary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23582637948928
+    m_Localized: Shortcuts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47560106573824
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47612908666880
+    m_Localized: Screenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47810183561216
+    m_Localized: ADD NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48041050636288
+    m_Localized: Connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48292146839552
+    m_Localized: Disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48763301396480
+    m_Localized: RENAME DEVICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49615244230656
+    m_Localized: DELETE CONNECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52344482037760
+    m_Localized: Device details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52430280720384
+    m_Localized: Screenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52578054438912
+    m_Localized: min ago
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53019286831104
+    m_Localized: Note to screenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53848962105344
+    m_Localized: No saved screenshot yet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53944323801088
+    m_Localized: Create report
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54078700912640
+    m_Localized: Enter the user name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55488385515520
+    m_Localized: "Device\u2019s unique name"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56176205234176
+    m_Localized: "Device\u2019s model"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56319121948672
+    m_Localized: Select a report for details
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

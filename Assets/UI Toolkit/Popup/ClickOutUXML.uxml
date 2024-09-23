@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ClickOutElement" focusable="false" style="flex-grow: 1; width: 400%; max-width: 400%; min-width: 400%; background-color: rgba(0, 0, 0, 0.35); height: 200%; max-height: 400%; min-height: 400%;" />
+</ui:UXML>

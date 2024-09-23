@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(0, 42, 85); justify-content: center;">
+        <ui:VisualElement name="RenderTextureElement" style="flex-grow: 1; width: 800px; height: 600px; max-height: 600px; min-height: 600px; max-width: 800px; min-width: 800px; justify-content: flex-start; align-items: center; align-self: center; background-color: rgba(0, 0, 0, 0.29);" />
+    </ui:VisualElement>
+</ui:UXML>

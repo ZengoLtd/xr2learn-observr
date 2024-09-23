@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Popup/AddNotePanel.uss?fileID=7433441132597879392&amp;guid=cc47f0e668da4a74e9b87a751cac6e02&amp;type=3#AddNotePanel" />
+    <ui:VisualElement name="BodyElement" style="flex-grow: 1; width: 100%; max-width: 100%; min-width: 100%; height: 100%; max-height: 100%; min-height: 100%; align-items: center; justify-content: flex-end; flex-direction: row;">
+        <ui:VisualElement name="LeftAreaClick" style="flex-grow: 1; width: auto; max-width: 500%; min-width: 1%; min-height: 100%; height: 100%; max-height: 100%; border-left-color: rgba(102, 151, 185, 0); border-right-color: rgba(102, 151, 185, 0); border-top-color: rgba(102, 151, 185, 0); border-bottom-color: rgba(102, 151, 185, 0); background-color: rgba(114, 168, 200, 0);" />
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 809px; max-width: 809px; min-width: 809px; height: 100%; max-height: 100%; min-height: 100%;">
+            <ui:VisualElement name="MidAreaClick" style="flex-grow: 1; background-color: rgba(202, 144, 144, 0); max-width: 500%; max-height: 500%;" />
+            <ui:VisualElement name="AddNoteWindow" style="flex-grow: 1; width: 809px; height: 211px; background-color: rgb(255, 255, 255); min-height: 211px; max-height: 211px; max-width: 809px; min-width: 809px; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; flex-direction: row; align-self: center; margin-bottom: 16px; margin-right: 16px; margin-left: 16px; margin-top: 16px;">
+                <ui:VisualElement name="LeftContainer" style="flex-grow: 1; width: 293px; max-width: 293px; min-width: 293px; height: 195px; max-height: 195px; min-height: 195px; background-color: rgba(137, 108, 108, 0);">
+                    <ui:VisualElement name="Top" style="flex-grow: 1; width: 293px; max-width: 293px; min-width: 293px; height: 163px; max-height: 163px; min-height: 163px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-left: 0; margin-right: 0; margin-top: 0; align-items: center; background-color: rgba(84, 102, 106, 0); margin-bottom: 0; justify-content: flex-end;">
+                        <ui:VisualElement name="SelectedScrshtContainer" style="flex-grow: 1; background-color: rgba(155, 246, 255, 0); width: 277px; height: 155px; max-width: 277px; min-width: 277px; max-height: 155px; min-height: 155px; align-self: center;">
+                            <ui:VisualElement name="AddNoteScreenshotImage" style="flex-grow: 1; background-color: rgb(0, 0, 0); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Bottom" style="flex-grow: 1; flex-direction: row; padding-left: 8px; margin-left: 0; margin-right: 0; padding-right: 8px;">
+                        <ui:VisualElement name="IndexContainer" style="flex-grow: 1; justify-content: center;">
+                            <ui:Label tabindex="-1" text="#02" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScrnshIndexLabel" style="-unity-font: url(&quot;project://database/Assets/Font/Work_Sans/static/WorkSans-Bold.ttf?fileID=12800000&amp;guid=84aed23a92a75cf42926e20ce1dd275f&amp;type=3#WorkSans-Bold&quot;); -unity-font-definition: initial; font-size: 12px; -unity-font-style: normal;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="DateContainer" style="flex-grow: 1; align-self: auto; flex-direction: row-reverse; align-items: center;">
+                            <ui:Label tabindex="-1" text="01-01-2024" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddNoteDateText" style="margin-right: 0; padding-right: 0; -unity-font: url(&quot;project://database/Assets/Font/Work_Sans/static/WorkSans-Regular.ttf?fileID=12800000&amp;guid=11bb9a07908f0c541956c229fcb3ed08&amp;type=3#WorkSans-Regular&quot;); font-size: 12px; -unity-font-definition: initial;" />
+                            <ui:Label tabindex="-1" text="09:15:27 " parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeLabel" style="-unity-font: url(&quot;project://database/Assets/Font/Work_Sans/static/WorkSans-Regular.ttf?fileID=12800000&amp;guid=11bb9a07908f0c541956c229fcb3ed08&amp;type=3#WorkSans-Regular&quot;); font-size: 12px; display: none;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="RightContainer" style="flex-grow: 1; padding-right: 0; margin-left: 8px; margin-right: 8px;">
+                    <ui:VisualElement name="AddNoteTitleContainer" style="flex-grow: 1; height: 52px; max-height: 52px; min-height: 52px; justify-content: center;">
+                        <ui:Label tabindex="-1" text="Add note to screenshot" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 16px; -unity-font: url(&quot;project://database/Assets/Font/Work_Sans/static/WorkSans-SemiBold.ttf?fileID=12800000&amp;guid=0a66399c64292f3459db35e89ff713b5&amp;type=3#WorkSans-SemiBold&quot;); -unity-font-definition: initial; color: rgb(110, 110, 110);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="RightBottomContainer" style="flex-grow: 1;">
+                        <ui:TextField picking-mode="Ignore" label="&#10;" value="Click here and start typing..." name="DescField" focusable="true" multiline="true" auto-correction="false" password="false" style="display: flex; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 103px; max-height: 103px; min-height: 103px; width: 484px; max-width: 484px; min-width: 484px; border-left-color: rgb(236, 242, 242); border-right-color: rgb(236, 242, 242); border-top-color: rgb(236, 242, 242); border-bottom-color: rgb(236, 242, 242); -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/Font/Work_Sans/static/WorkSans-Regular.ttf?fileID=12800000&amp;guid=11bb9a07908f0c541956c229fcb3ed08&amp;type=3#WorkSans-Regular&quot;);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="RightAreaClick" style="flex-grow: 1; width: auto; max-width: 500%; min-width: 1%; height: 100%; max-height: 100%; min-height: 100%; background-color: rgba(121, 231, 93, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

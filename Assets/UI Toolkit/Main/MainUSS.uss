@@ -1,0 +1,324 @@
+#ScrollozoEgy > Scroller {
+    width: 100%;
+    margin-right: 0;
+    align-items: flex-start;
+    align-self: flex-end;
+    justify-content: flex-end;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+#ScrollozoEgy #unity-content-and-vertical-scroll-container > Scroller {
+    align-self: auto;
+    margin-left: 0;
+    padding-bottom: 0;
+    -unity-background-scale-mode: stretch-to-fill;
+    justify-content: flex-start;
+    align-items: flex-end;
+    white-space: normal;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 0;
+    padding-right: 7px;
+    padding-left: 0;
+    margin-bottom: -20px;
+    width: 17px;
+    max-width: 14px;
+    margin-right: -15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#ScrollozoEgy #unity-content-and-vertical-scroll-container > Scroller #unity-low-button {
+    display: none;
+    overflow: visible;
+    padding-bottom: -20px;
+    margin-bottom: -20px;
+}
+
+#ScrollozoEgy #unity-content-and-vertical-scroll-container > Scroller #unity-high-button {
+    display: flex;
+    margin-top: 8px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    opacity: 1;
+    overflow: visible;
+    visibility: hidden;
+    width: 20px;
+    height: 26px;
+    padding-top: 8px;
+}
+
+#ScrollozoEgy #unity-content-and-vertical-scroll-container > Scroller #unity-slider > VisualElement #unity-drag-container #unity-dragger {
+    opacity: 0.8;
+    width: 6px;
+    height: 81px;
+    max-width: 6px;
+    max-height: 81px;
+    -unity-background-scale-mode: stretch-to-fill;
+    border-top-width: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 24px;
+    -unity-slice-bottom: 0;
+    display: flex;
+    padding-bottom: 0;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgba(159, 159, 159, 0.37);
+    border-right-color: rgba(159, 159, 159, 0.37);
+    border-top-color: rgba(159, 159, 159, 0.37);
+    border-bottom-color: rgba(159, 159, 159, 0.37);
+    padding-right: 0;
+    margin-right: 0;
+    min-width: 6px;
+    align-items: stretch;
+}
+
+#ScrollozoEgy #unity-content-and-vertical-scroll-container > Scroller #unity-slider > VisualElement #unity-drag-container #unity-tracker {
+    opacity: 0.74;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    -unity-background-scale-mode: stretch-to-fill;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 12px;
+    max-width: 12px;
+    min-width: 12px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#ScrollozoEgy > Scroller #unity-low-button {
+    visibility: hidden;
+    max-width: none;
+}
+
+#ScrollozoEgy > Scroller #unity-high-button {
+    visibility: hidden;
+}
+
+#ScrollozoEgy > Scroller #unity-slider {
+}
+
+#ScrollozoEgy > Scroller #unity-slider > VisualElement {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(147, 147, 147);
+    border-right-color: rgb(147, 147, 147);
+    border-top-color: rgb(147, 147, 147);
+    border-bottom-color: rgb(147, 147, 147);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+#ScrollozoEgy > Scroller #unity-slider > VisualElement #unity-drag-container {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 0;
+}
+
+#ScrollozoEgy > Scroller #unity-slider > VisualElement #unity-drag-container #unity-tracker {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#ScrollozoEgy > Scroller #unity-slider > VisualElement #unity-drag-container #unity-dragger-border {
+    padding-left: 3px;
+    padding-right: 3px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+
+#ScrollozoEgy > Scroller #unity-slider > VisualElement #unity-drag-container #unity-dragger {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 0;
+    padding-right: 4px;
+    padding-left: 4px;
+    width: 18%;
+    max-width: 14%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(140, 140, 140);
+    border-right-color: rgb(140, 140, 140);
+    border-top-color: rgb(140, 140, 140);
+    border-bottom-color: rgb(140, 140, 140);
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 4px;
+    height: 80%;
+    max-height: 80%;
+}
+
+.ScreebshotContainer {
+    flex-shrink: 0;
+}
+
+.devviceListButtonOn {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+    -unity-font: url("project://database/Assets/Font/Work_Sans/static/WorkSans-SemiBold.ttf?fileID=12800000&guid=0a66399c64292f3459db35e89ff713b5&type=3#WorkSans-SemiBold");
+    -unity-font-definition: initial;
+    font-size: 16px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: rgb(110, 110, 110);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+}
+
+.devviceListButtonOff {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+    -unity-font: url("project://database/Assets/Font/Work_Sans/static/WorkSans-SemiBold.ttf?fileID=12800000&guid=0a66399c64292f3459db35e89ff713b5&type=3#WorkSans-SemiBold");
+    -unity-font-definition: initial;
+    font-size: 16px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: rgba(110, 110, 110, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#ReportScreenshtsScroll #unity-content-and-vertical-scroll-container > Scroller #unity-slider {
+    left: -340px;
+}
+
+#ReportScreenshtsScroll #unity-content-and-vertical-scroll-container > Scroller #unity-slider > VisualElement #unity-drag-container #unity-dragger {
+    position: relative;
+    left: -1px;
+    width: 7px;
+    max-width: 7px;
+    min-width: 7px;
+    height: 81px;
+    max-height: 81px;
+    min-height: 81px;
+    background-color: rgb(56, 56, 56);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-self: center;
+}
+
+#ReportsScroller #unity-content-and-vertical-scroll-container > Scroller #unity-slider {
+    opacity: 1;
+    left: -5px;
+}
+
+#ReportsScroller #unity-content-and-vertical-scroll-container > Scroller {
+    opacity: 1;
+}
+
+#ReportsScroll #unity-content-and-vertical-scroll-container > Scroller #unity-slider #unity-drag-container #unity-dragger {
+    background-color: rgb(56, 56, 56);
+    width: 7px;
+    max-width: 7px;
+    min-width: 7px;
+    height: 81px;
+    max-height: 81px;
+    min-height: 81px;
+    opacity: 1;
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+}
+
+.blackScroller Scroller #unity-slider #unity-drag-container #unity-dragger {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgb(56, 56, 56);
+    height: 81px;
+    width: 7px;
+    max-height: 81px;
+    min-height: 81px;
+    max-width: 7px;
+    min-width: 7px;
+    opacity: 1;
+}
+
+.blackScrollerRLScreenshots Scroller #unity-slider #unity-drag-container #unity-dragger {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgb(56, 56, 56);
+    height: 81px;
+    width: 7px;
+    max-height: 81px;
+    min-height: 81px;
+    max-width: 7px;
+    min-width: 7px;
+    opacity: 1;
+    left: 0;
+}
+
+.blackScrollerRLScreenshots Scroller #unity-slider {
+    left: 0;
+}
